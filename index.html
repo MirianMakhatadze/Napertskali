@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Napertskali</title>
+	  <link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="slideshow-container" draggable="true">
-        <!-- Full-width images caption text -->
-        <div class="mySlides  animate__animated animate__slideInRight  " draggable="true">
-          <img src="images/370326723_1243687012993456_8566867337632690453_n.jpg" style="width:100%" max-height="919px" height="100%">
-          <div class="text">Caption Text</div>
-        </div>
-      
-        <div class="mySlides animate__animated animate__slideInRight " draggable="true">
-          <img src="images/376600473_295129300073506_8627186065307418030_n.jpg" style="width:100%" max-height="919px" height="100%">
-          <div class="text">Caption Two</div>
-        </div>
-      
-        <div class="mySlides animate__animated animate__slideInRight " draggable="true">
-          <img src="images/377221825_1417109659236344_1065891604176549567_n.jpg" style="width:100%" max-height="919px" height="100%">
-          <div class="text">Caption Three</div>
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <section id="slick">
+    <div class="slider multiple-items animate__animated animate__fadeIn">
+      <div class="slider_item">
+        <img class="slider-image" src="images/image1.jpg" alt="">
+        <a class="slider-text" href="#">slide 1</a>                   
       </div>
-      <br>
-    <script src="script/script.js"></script>
+      <div class="slider_item">
+        <img class="slider-image" src="images/image2.jpg" alt="">
+        <a class="slider-text" href="#">slide 2</a>
+      </div>
+      <div class="slider_item">
+        <img class="slider-image" src="images/image3.jpg" alt="">
+        <a class="slider-text" href="#">slide 3</a>
+      </div>
+      <div class="slider_item">
+        <img class="slider-image" src="images/image4.jpg" alt="">
+        <a class="slider-text" href="#">slide 4</a>
+      </div>
+      <div class="slider_item">
+        <img class="slider-image" src="images/image5.jpg" alt="">
+        <a class="slider-text" href="#">slide 5</a>
+      </div>
+      <div class="slider_item">
+        <img class="slider-image" src="images/image6.jpg" alt="">
+        <a class="slider-text" href="#">slide 6</a>
+      </div>
+</div>
+     <!-- Jquery cdn link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Slick Js file -->
+	<script src="script/slick.min.js"></script>
+	<!-- Main js with code -->
+	<script src="script/script.js"></script>
 </body>
 </html>
