@@ -206,13 +206,13 @@ form {
   font-weight: 700;
 }
 .item-text-wrapper {
+  margin-top: 8px;
   height: 110px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer-wrapper {
-  /* max-width: var(--mainwidth); */
   width: 100%;
   margin: 0 auto;
   padding-bottom: 10px;
